@@ -32,7 +32,6 @@ header {
     width: auto;
     height: 20vw;
     padding: 1px;
-    t;
 }
 
 h1 {
@@ -71,19 +70,7 @@ main {
     margin-left: 40px;
 }
 
-section {
-    font-size: ;
-}
-
-.parallax{
-    height: 850px;
-    margin: 0px 0px 0px -40px;
-
-    background:#00000000 url('../imagens/background001.jpg') center center/cover no-repeat fixed;
-    box-shadow: #34343487 0px 20px 20px;
-}
-
-main > .parallax> p {
+main > .parallax > p {
     color: white;
     background-color: rgba(211, 211, 211, 0.582);
 
@@ -98,6 +85,22 @@ main > .parallax> p {
     width: 564px;
     height: 425px;
     padding: 6px 0px 0px 16.5px;
+}
+
+#plx01 {
+    height: 850px;
+    margin: 0px 0px 0px -40px;
+
+    background:#00000000 url('../imagens/background001.jpg') center center/cover no-repeat fixed;
+    box-shadow: #34343487 0px 20px 20px;
+}
+
+#plx02 {
+    height: 850px;
+    margin: 0px 0px 40px -40px;
+
+    background:#00000000 url('../imagens/background002.jpg') center center/cover no-repeat fixed;
+    box-shadow: #34343487 0px 20px 20px;
 }
 
 footer {
