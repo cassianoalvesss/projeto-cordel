@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
+body{
+    margin: auto;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: "Walkway";
+    src: url('../fontes/Walkway Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: url('../fontes/AmaticSC-Regular.ttf') format("truetype");
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fontes/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    width: auto;
+    height: 20vw;
+    padding: 1px;
+    t;
+}
+
+h1 {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 10vw;
+    margin: auto;
+}
+
+header > h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Walkway', sans-serif;
+}
+
+header > h2 > a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Walkway', sans-serif;
+    text-decoration: none;
+    margin: auto;
+}
+
+h2 > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 2.7vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 45px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+section {
+    font-size: ;
+}
+
+.parallax{
+    height: 850px;
+    margin: 0px 0px 0px -40px;
+
+    background:#00000000 url('../imagens/background001.jpg') center center/cover no-repeat fixed;
+    box-shadow: #34343487 0px 20px 20px;
+}
+
+main > .parallax> p {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.582);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 10px;
+    box-shadow: #34343487 0px 10px 20px;
+
+    position: relative;
+    top: 27%;
+    left: 3%;
+    width: 564px;
+    height: 425px;
+    padding: 6px 0px 0px 16.5px;
+}
+
+footer {
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+
+    height: 16px;
+    margin-top: 7px;
+    padding-bottom: 2px;
+}
+
+footer > p >a  {
+    text-decoration: none;
+    color:white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color:white;
+}
